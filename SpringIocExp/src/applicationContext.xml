@@ -8,9 +8,9 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
    <!-- <bean id="myCoach" class="com.springexp.ioc.TrackCoach"></bean> -->
-   <bean id="myCoach" class="com.springexp.ioc.BaseballCoach"></bean>
+  <!--  <bean id="myCoach" class="com.springexp.ioc.BaseballCoach"></bean> -->
 
-    
+    <bean id="myCoach" class="com.springexp.ioc.CricketCoach"></bean>
 </beans>
 
 
