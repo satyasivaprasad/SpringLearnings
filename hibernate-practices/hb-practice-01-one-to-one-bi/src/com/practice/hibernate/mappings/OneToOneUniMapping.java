@@ -20,9 +20,9 @@ public class OneToOneUniMapping {
 
 		try {
 
-			Trainer kTrainer = new Trainer("Siva", "Prasad", "siva@demo.com");
+			Trainer kTrainer = new Trainer("Krishna", "Patel", "krishna@demo.com");
 
-			TrainerDetail kTrainerDetail = new TrainerDetail("http://www.youtube.com", "9+ Years");
+			TrainerDetail kTrainerDetail = new TrainerDetail("http://www.youtube.com", "10+ Years");
 
 			// associate the objects
 			kTrainer.setTrainerDetail(kTrainerDetail);
